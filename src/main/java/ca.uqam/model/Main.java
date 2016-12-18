@@ -1,11 +1,14 @@
 package ca.uqam.model;
 
 
+//import ca.uqam.model.CSV_Contact;
+
 /**
  * Created by Moiseballa on 2016-12-17.
  */
 public class Main {
         public static void main(String[] args){
+            //Utilisation de lambda expression par Java 8
             Contact contact = new Contact(c -> {
                 c.nom("Moussa");
                 c.prenom("Balla");
@@ -20,6 +23,6 @@ public class Main {
             });
 
             System.out.println(contact.toString());
-            //CSVWriter.write(contact);
+            CSV_Contact.sauvegarder(contact);
         }
     }
