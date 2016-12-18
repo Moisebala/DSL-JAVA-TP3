@@ -11,7 +11,7 @@
         <!-- use UTF-8 for everything -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <start-class>ca.uqam.model.Main</start-class>
+        <start-class>ca.uqam.contacts.Main</start-class>
     </properties>
     <build>
         <plugins>
@@ -22,7 +22,7 @@
                 <archive>
                     <manifest>
                         <addClasspath>true</addClasspath>
-                        <mainClass>ca.uqam.model.Main</mainClass>
+                        <mainClass>ca.uqam.contacts.Main</mainClass>
                         <classpathPrefix>dependency-jars/</classpathPrefix>
                     </manifest>
                 </archive>

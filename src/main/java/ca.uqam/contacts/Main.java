@@ -1,7 +1,7 @@
-package ca.uqam.model;
+package ca.uqam.contacts;
 
 
-//import ca.uqam.model.CSV_Contact;
+//import ca.uqam.contacts.CSV_Contact;
 
 /**
  * Created by Moiseballa on 2016-12-17.

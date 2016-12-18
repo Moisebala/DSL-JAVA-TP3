@@ -1,4 +1,4 @@
-package ca.uqam.model;
+package ca.uqam.contacts;
 
 import java.util.ArrayList;
 import java.util.List;

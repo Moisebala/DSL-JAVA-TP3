@@ -1,4 +1,4 @@
-package ca.uqam.model;
+package ca.uqam.contacts;
 
 
 
@@ -39,7 +39,7 @@ public class CSV_Contact {
             fileWriter.append(contact.sociauxDescription());
             fileWriter.append(Retour_Ligne);
 
-            System.out.println("Fichier CSV créé avec succès.");
+            System.out.println("Fichier Contact créé avec succès.");
 
         }
         catch(Exception e){

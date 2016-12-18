@@ -1,4 +1,4 @@
-package ca.uqam.model;
+package ca.uqam.contacts;
 
 /**
  * Created by Moiseballa on 2016-12-17.
