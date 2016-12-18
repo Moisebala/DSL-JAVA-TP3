@@ -1,9 +1,6 @@
 package ca.uqam.contacts;
 
 
-
-
-
 import java.io.FileWriter;
 import java.io.IOException;
 
